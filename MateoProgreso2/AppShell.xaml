@@ -10,13 +10,13 @@
     <TabBar>
         <Tab Title="Recarga">
             <ShellContent
-            Title="lo"
+            Title="Recarga"
             ContentTemplate="{DataTemplate local:MRecarga}"
             Route="MRecarga"/>
         </Tab>
         <Tab Title="Grid">
             <ShellContent
-             Title="ww"
+             Title="Grid"
              ContentTemplate="{DataTemplate local:Grid}"
              Route="Grid"/>
         </Tab>
