@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MateoProgreso2.MRecarga"
+             Title="MRecarga">
+    <VerticalStackLayout Margin="30"
+                     Spacing="30">
+        <Label 
+        x:Name="crhysvelasco_label1"
+        Text="Ingrese el número deteléfono:"
+        VerticalOptions="Center" 
+        HorizontalOptions="Center" />
+        <Entry
+        x:Name="crysvelasco_entry1"
+        Placeholder="Numero de telefono"
+        Text="{Binding Telefono}"/>
+        <Label 
+        x:Name="crhysvelasco_label2"
+        Text="Ingrese su nombre para la recarga:"
+        VerticalOptions="Center" 
+        HorizontalOptions="Center"/>
+        <Entry
+        x:Name="crysvelasco_entry2"
+        Placeholder="Ingrese su nombre"
+        Text="{Binding Nombre}"/>
+        <Label
+        x:Name="crhysvelasco_label3"
+        Text="{Binding Mensaje}"
+        />
+
+        <Button
+        x:Name="Buton1"
+        Text="Recargar"
+        Clicked="Buton1_Clicked"/>
+
+    </VerticalStackLayout>
+</ContentPage>
