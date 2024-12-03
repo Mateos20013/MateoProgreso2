@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MateoProgreso2.Interfaces
 {
-    internal class IRecarga
+    public class IRecarga
     {
         List<Recarga> DevuelveListRecarga();
         Recarga DevuelveRecarg(int Id);
