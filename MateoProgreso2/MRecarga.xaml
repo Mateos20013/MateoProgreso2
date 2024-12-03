@@ -6,25 +6,25 @@
     <VerticalStackLayout Margin="30"
                      Spacing="30">
         <Label 
-        x:Name="crhysvelasco_label1"
+        x:Name="mateoSotomayor_label"
         Text="Ingrese el número deteléfono:"
         VerticalOptions="Center" 
         HorizontalOptions="Center" />
         <Entry
-        x:Name="crysvelasco_entry1"
+        x:Name="mateoSotomayor_entry"
         Placeholder="Numero de telefono"
         Text="{Binding Telefono}"/>
         <Label 
-        x:Name="crhysvelasco_label2"
+        x:Name="mateoSotomayor_label1"
         Text="Ingrese su nombre para la recarga:"
         VerticalOptions="Center" 
         HorizontalOptions="Center"/>
         <Entry
-        x:Name="crysvelasco_entry2"
+        x:Name="mateoSotomayor_entry1"
         Placeholder="Ingrese su nombre"
         Text="{Binding Nombre}"/>
         <Label
-        x:Name="crhysvelasco_label3"
+        x:Name="mateoSotomayor_label2"
         Text="{Binding Mensaje}"
         />
 
