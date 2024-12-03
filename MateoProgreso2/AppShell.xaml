@@ -11,14 +11,14 @@
         <Tab Title="Recarga">
             <ShellContent
             Title="lo"
-            ContentTemplate="{DataTemplate local:VelascoCRecarga}"
-            Route="VelascoCRecarga"/>
+            ContentTemplate="{DataTemplate local:MRecarga}"
+            Route="MRecarga"/>
         </Tab>
         <Tab Title="Grid">
             <ShellContent
              Title="ww"
-             ContentTemplate="{DataTemplate local:VelascoCGrid}"
-             Route="VelascoCGrid"/>
+             ContentTemplate="{DataTemplate local:Grid}"
+             Route="Grid"/>
         </Tab>
 
     </TabBar>
